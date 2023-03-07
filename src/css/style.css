@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  width: 75%;
+  font-size: 1.5rem;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 0 1rem;
+  width: 70%;
+}
+
+.scores {
+  flex: 1 1 15rem;
+}
+
+.scores .title-scores {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scores .title-scores .refresh {
+  height: 3vh;
+  background-color: #fff;
+  box-shadow: 0.2rem 0.3rem 0.2rem black;
+}
+
+.scores-list {
+  list-style: none;
+  border: 1px solid;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.scores-list li {
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+.scores-list li:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.input-scores {
+  flex: 1 1 15rem;
+}
+
+.input-scores .inputBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-scores .inputBox input {
+  height: 3vh;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: end;
+}
+
+.submit {
+  width: 27%;
+  height: 3vh;
+  box-shadow: 0.2rem 0.3rem 0.2rem black;
+}
