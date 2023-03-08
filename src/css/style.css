@@ -19,9 +19,9 @@ body {
   text-transform: uppercase;
 }
 
-.heading h1{
+.heading h1 {
   margin: 1rem 0;
-  color: #90EE90;
+  color: #90ee90;
 }
 
 .content {
@@ -40,28 +40,28 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #90EE90;
+  color: #90ee90;
 }
 
-.scores .title-scores h2{
+.scores .title-scores .r-scores {
   font-size: 2rem;
 }
 
 .scores .title-scores .refresh {
   height: 3vh;
   background-color: #fff;
-  border: #90EE90;
-  box-shadow: 0.2rem 0.3rem 0.2rem #90EE90;
+  border: #90ee90;
+  box-shadow: 0.2rem 0.3rem 0.2rem #90ee90;
 }
 
-.scores .title-scores .refresh:hover{
-  background-color: #90EE90;
+.scores .title-scores .refresh:hover {
+  background-color: #90ee90;
   box-shadow: 0.2rem 0.3rem 0.2rem #fff;
 }
 
 .scores-list {
   list-style: none;
-  border: 3px solid #90EE90;
+  border: 3px solid #90ee90;
   height: 50vh;
   overflow-y: scroll;
   margin-top: 0;
@@ -84,8 +84,8 @@ body {
   flex: 1 1 15rem;
 }
 
-.input-scores h2{
-  color: #90EE90;
+.input-scores h2 {
+  color: #90ee90;
   font-size: 2rem;
 }
 
@@ -97,8 +97,8 @@ body {
 
 .input-scores .inputBox input {
   height: 4vh;
-  border-radius: .5rem;
-  padding-left: .5rem;
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .name:focus,
@@ -114,33 +114,33 @@ body {
 .submit {
   width: 27%;
   height: 3vh;
-  box-shadow: 0.2rem 0.3rem 0.2rem #90EE90;
-  border: #90EE90;
+  box-shadow: 0.2rem 0.3rem 0.2rem #90ee90;
+  border: #90ee90;
 }
 
-.submit:hover{
-  background-color: #90EE90;
+.submit:hover {
+  background-color: #90ee90;
   box-shadow: 0.2rem 0.3rem 0.2rem #fff;
 }
 
-@media (max-width:999px){
-  .content{
+@media (max-width: 999px) {
+  .content {
     width: 80%;
   }
 }
 
-@media (max-width:768px){
-  .content{
+@media (max-width: 768px) {
+  .content {
     width: 70%;
   }
 }
 
-@media (max-width:500px) {
-  .heading{
+@media (max-width: 500px) {
+  .heading {
     font-size: 1rem;
   }
 
-  .content{
+  .content {
     width: 90%;
   }
 }
