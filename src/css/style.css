@@ -43,18 +43,20 @@ body {
 .scores-list {
   list-style: none;
   border: 1px solid;
+  height: 50vh;
+  overflow-y: scroll;
   margin-top: 0;
   padding-left: 0;
 }
 
-.scores-list li {
-  height: 3vh;
+.scores-list .scoreBoard {
+  height: 5vh;
   display: flex;
   align-items: center;
   padding-left: 0.5rem;
 }
 
-.scores-list li:nth-child(even) {
+.scores-list .scoreBoard:nth-child(even) {
   background-color: #d3d3d3;
 }
 
