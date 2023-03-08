@@ -19,10 +19,12 @@ document.getElementById('inputScores').addEventListener('submit', async (e) => {
   e.preventDefault();
   const userName = document.querySelector('.name');
   const userScore = document.querySelector('.n-score');
+  const form = document.getElementById('inputScores');
   const data = {
     user: userName.value,
     score: userScore.value,
   };
   await request.addScore(data);
+  form.reset();
   displayData();
 });
