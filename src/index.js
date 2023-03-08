@@ -18,7 +18,7 @@ document.querySelector('.refresh').addEventListener('click', async () => {
 document.getElementById('inputScores').addEventListener('submit', async (e) => {
   e.preventDefault();
   const userName = document.querySelector('.name');
-  const userScore =document.querySelector('.n-score');
+  const userScore = document.querySelector('.n-score');
   const data = {
     user: userName.value,
     score: userScore.value,
