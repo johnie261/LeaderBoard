@@ -13,6 +13,7 @@ displayData();
 
 document.querySelector('.refresh').addEventListener('click', async () => {
   displayData();
+  console.log('submit')
 });
 
 document.getElementById('inputScores').addEventListener('submit', async (e) => {
