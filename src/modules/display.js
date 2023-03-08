@@ -5,7 +5,7 @@ export default async (Games) => {
   for (let i = 0; i < Games.length; i += 1) {
     scoresContainer.innerHTML += `
         <div class='scoreBoard'>
-            <p class='Title'>'${Games[i].user}': ${Games[i].score}</p>
+            <p class='Title'>${Games[i].user}: ${Games[i].score}</p>
         </div>`;
   }
 };
