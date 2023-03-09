@@ -23,7 +23,7 @@ A leaderboard project to implement API and async in Javascript
 
 > Here you can see the live demo of my project:
 
-- Not available at the moment
+- [Live Demo Link](https://johnie261.github.io/to-do-list/dist/)
 
 # 💻 Getting Started:
 ### To get a local copy up and running, follow these steps:
@@ -93,7 +93,7 @@ npm start
 
 # Deployment:
 ### You can deploy this project using:
-- NOt yet deployed
+- Github pages
 
 # 👥 Authors:
 ### 👤 Johnie:
