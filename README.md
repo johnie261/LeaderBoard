@@ -23,7 +23,7 @@ A leaderboard project to implement API and async in Javascript
 
 > Here you can see the live demo of my project:
 
-- [Live Demo Link](https://johnie261.github.io/to-do-list/dist/)
+- [Live Demo Link](https://johnie261.github.io/LeaderBoard/dist/)
 
 # 💻 Getting Started:
 ### To get a local copy up and running, follow these steps:
