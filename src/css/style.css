@@ -10,8 +10,8 @@ body {
   align-items: center;
   justify-content: center;
   background: linear-gradient(#e66465, #9198e5);
-  height: 100vh;
-  overflow: hidden;
+  height: 110vh;
+  overflow-x: hidden;
 }
 
 .heading {
@@ -34,6 +34,7 @@ body {
 
 .scores {
   flex: 1 1 15rem;
+  overflow-x: auto;
 }
 
 .scores .title-scores {
@@ -70,6 +71,7 @@ body {
 
 .scores-list .scoreBoard {
   height: 5vh;
+  overflow: hidden;
   display: flex;
   align-items: center;
   padding-left: 0.5rem;

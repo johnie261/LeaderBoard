@@ -1,6 +1,6 @@
 export default class {
   constructor() {
-    this.url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/BaNvhq4ckmF5j5NMU5wx/scores';
+    this.url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/V738fjAtRPofhgnKVfNF/scores';
   }
 
     getScores = async () => {
